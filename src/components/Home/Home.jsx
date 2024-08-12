@@ -22,7 +22,7 @@ function Home() {
 
           <h2
             className='text-[19px] font-semibold md:w-[40vw] mt-8'
-          >Buy SEO, PPC, SMM and other digital marketing services. Our digital marketing experts provide services from organic growth to paid advertising. Media Ravens is one of the best digital marketing agency to solve your digital bottlenecks with dedicated digital marketing experts.</h2>
+          >Buy SEO, PPC, SMM and other digital marketing services. Our digital marketing experts provide services from organic growth to paid advertising. Business Drivers is one of the best digital marketing agency to solve your digital bottlenecks with dedicated digital marketing experts.</h2>
 
           <div className="grow-btn-container flex md:block">
             <NavLink to="/contact">

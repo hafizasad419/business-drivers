@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom';
+import { Button } from '../../../utils';
 function WhyUs() {
 
     const businessDriversBenefits = [
@@ -37,15 +38,24 @@ function WhyUs() {
             {
                 businessDriversBenefits.map((benefit, index) => (
                     <div key={index} className='flex flex-col md:flex-row md:justify-center md:items-center gap-4 md:gap-8 p-4'>
-                       
+
                         <div className='md:w-2/3'>
                             <h4 className='text-xl md:text-2xl font-bold text-skyBlue'>{benefit.title}</h4>
-                            <p className='text-base md:text-lg text-orange'>{benefit.description}</p>
+                            <p className='text-base font-semibold md:text-lg text-orange'>{benefit.description}</p>
                         </div>
                     </div>
                 ))
             }
 
+            <div className="boost-btn-container flex justify-center">
+                <NavLink to="/contact">
+                    <Button
+                        children="Let's Boost Your Business"
+                        className='font-bold my-4  text-white py-4 px-8 bg-skyBlue hover:bg-white hover:text-skyBlue duration-300 hover:scale-105 border-white border-2 hover:border-skyBlue'
+                    />
+                </NavLink>
+
+            </div>
         </div>
     )
 }

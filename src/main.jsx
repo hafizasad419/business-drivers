@@ -8,6 +8,12 @@ import {
   Layout,
   About,
   Contact,
+  Seo,
+  SMM,
+  PPC,
+  WebDev,
+  ContentWriting,
+  CreativesBranding
 } from './components/index.js'
 
 
@@ -18,8 +24,15 @@ const router = createBrowserRouter(
       <Route path='' element={<Home />} />
 
       <Route path='about' element={<About />} />
-   
+
       <Route path='contact' element={<Contact />} />
+
+      <Route path="/seo" element={<Seo />} />
+      <Route path="/social-media-marketing" element={<SMM />} />
+      <Route path="/ppc" element={<PPC />} />
+      <Route path="/web-dev" element={<WebDev />} />
+      <Route path="/content-writing" element={<ContentWriting />} />
+      <Route path="/creatives-branding" element={<CreativesBranding />} />
 
     </Route>
   )

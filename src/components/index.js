@@ -10,6 +10,12 @@ import Pricing from "./Home/Pricing/Pricing.jsx"
 import WhatElse from "./Home/WhatElse/WhatElse.jsx"
 import AboutUs from "./Home/AboutUs/AboutUs.jsx"
 import WhyUs from "./Home/WhyUs/WhyUs.jsx"
+import SMM from "./Services/SMM/SMM.jsx"
+import PPC from "./Services/PPC/PPC.jsx"
+import SEO from "./Services/SEO/Seo.jsx"
+import WebDev from "./Services/WebDev/WebDev.jsx"
+import CreativesBranding from "./Services/CreativesBranding/CreativesBranding.jsx"
+import ContentWriting from "./Services/ContentWriting/ContentWriting.jsx"
 
 export {
     Header,
@@ -24,8 +30,10 @@ export {
     WhatElse,
     AboutUs,
     WhyUs,
-
-    
-    
-    
+    SMM,
+    PPC,
+    SEO,
+    WebDev,
+    CreativesBranding,
+    ContentWriting
 }

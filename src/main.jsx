@@ -8,7 +8,7 @@ import {
   Layout,
   About,
   Contact,
-  Seo,
+  SEO,
   SMM,
   PPC,
   WebDev,
@@ -27,7 +27,7 @@ const router = createBrowserRouter(
 
       <Route path='contact' element={<Contact />} />
 
-      <Route path="/seo" element={<Seo />} />
+      <Route path="/seo" element={<SEO />} />
       <Route path="/social-media-marketing" element={<SMM />} />
       <Route path="/ppc" element={<PPC />} />
       <Route path="/web-dev" element={<WebDev />} />

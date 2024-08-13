@@ -19,14 +19,14 @@ function Clients() {
       <div className="mt-12 md:mt-20 overflow-hidden white-space-nowrap flex">
         <div className="flex animate-ticker">
           {images.map((image, index) => (
-           <>
+           
             <img
               key={index}
               src={image}
               alt={`Slide ${index + 1}`}
               className="h-[120px] object-left-top mr-14 rounded-md hover:scale-110 transition-all duration-300 ease-in-out"
             />
-           </>
+           
           ))}
         </div>
       </div>

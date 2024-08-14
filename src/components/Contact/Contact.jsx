@@ -4,7 +4,7 @@ import tickImg from '../../assets/tick.png';
 import { Button } from '../../utils';
 
 function Contact() {
-    const [state, handleSubmit] = useForm("form-id");
+    const [state, handleSubmit] = useForm("xzzpgnbo");
     const [submitting, setSubmitting] = useState(false);
     const [showPopup, setShowPopup] = useState(false);
 
@@ -27,18 +27,18 @@ function Contact() {
                     Contact <span className='text-skyBlue'>Us</span>
                 </h2>
                 {showPopup ? (
-                    <div className="fixed inset-0 flex justify-center items-center bg-gray-100 bg-opacity-75">
-                        <div className="bg-white p-8 rounded-lg">
+                    <div className="fixed inset-0 flex justify-center items-center bg-gray-900 bg-opacity-75">
+                        <div className="bg-white p-8 rounded-lg border-skyBlue border-[3px]">
                             <img src={tickImg} alt="" className="w-16 mx-auto mb-4" />
                             <h2 className="text-xl text-orange font-bold mb-2 text-center">Thank You!</h2>
                             <p className="text-center text-skyBlue mb-4 font-semibold">
-                                Your details have been successfully submitted. <br />
-                                <span className='text-orange'>We'll get back to you soon.</span>
+                                Your details have been successfully submitted.
+                                <span className='text-orange'> We'll get back to you soon.</span>
                             </p>
                             <div className="ok-btn-container flex justify-center">
                                 <Button
                                     type="button"
-                                    className="py-3 px-14 text-md text-center text-white bg-skyBlue hover:bg-white hover:text-skyBlue border border-skyBlue duration-300 font-bold"
+                                    className="py-3 px-20 text-lg text-center text-white bg-skyBlue hover:bg-white hover:text-skyBlue border border-skyBlue duration-300 font-bold"
                                     onClick={handlePopupClose}
                                     children='OK'
                                 />

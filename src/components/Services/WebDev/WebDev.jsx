@@ -75,7 +75,7 @@ function WebDev() {
     <div>
       <ServiceCards
         title1="Website Design and Development"
-        title2="(WebDev)"
+        title2="Solutions"
         description="Our Web Design and Development services are crafted to deliver high-quality, functional websites tailored to your business needs."
         services={webDevServices}
       />

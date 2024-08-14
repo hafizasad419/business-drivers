@@ -72,7 +72,7 @@ function Header() {
                     <li className='my-2 md:my-0 relative dropdown-parent duration-500 md:hover:scale-110'
                         onMouseEnter={showDropdown}
                         onMouseLeave={hideDropdown}>
-                        <NavLink to="/" className={({ isActive }) => `flex items-center ${isActive ? 'text-orange' : 'text-[#60c0e2]'} md:mx-4 mx-[5px] text-[0.8rem] md:text-[16px] font-semibold cursor-pointer hover:text-orange`}>
+                        <NavLink to="/all-services" className={({ isActive }) => `flex items-center ${isActive ? 'text-orange' : 'text-[#60c0e2]'} md:mx-4 mx-[5px] text-[0.8rem] md:text-[16px] font-semibold cursor-pointer hover:text-orange`}>
                             DIGITAL MARKETING SERVICES <RiArrowDropDownLine className='hidden md:block' size={"1.5rem"} />
                         </NavLink>
                         {dropdownVisible && (

@@ -16,22 +16,22 @@ function Footer() {
     {
       heading: "Resources",
       links: [
-        { name: "Business Drivers", link: "/" },
-        { name: "Services", link: "/" },
+        { name: "Reach Out", link: "/contact" },
+        { name: "All Services", link: "/all-services" },
       ],
     },
     {
       heading: "Follow us",
       links: [
-        { name: "Instagram", link: "https://instagram.com/" },
-        { name: "Linkedin", link: "https://linkedin.com" },
+        { name: "Instagram", link: "https://www.instagram.com/the_community_of_game_changers?igsh=dGw3YmVuc2syNzYw" },
+        { name: "Linkedin", link: "https://www.linkedin.com/company/businessdrivers/" },
       ],
     },
     {
       heading: "Legal",
       links: [
-        { name: "Privacy Policy", link: "#" },
-        { name: "Terms & Conditions", link: "#" },
+        { name: "Privacy Policy", link: "/privacy-policy" },
+        { name: "Terms & Conditions", link: "terms-and-conditions" },
       ],
     },
   ];
@@ -40,13 +40,13 @@ function Footer() {
   const socialIcons = [
     {
       icon: <FaLinkedin />,
-      link: "#",
+      link: "https://www.linkedin.com/company/businessdrivers/",
       label: "Linkedin Profile",
     },
     {
       icon: <FaInstagram />,
-      link: "#",
-      label: "Discord community",
+      link: "https://www.instagram.com/the_community_of_game_changers?igsh=dGw3YmVuc2syNzYw",
+      label: "Instagram",
     },
    
   ];

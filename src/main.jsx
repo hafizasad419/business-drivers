@@ -13,7 +13,10 @@ import {
   PPC,
   WebDev,
   ContentWriting,
-  CreativesBranding
+  CreativesBranding,
+  AllServices,
+  PrivacyPolicy,
+  TermsAndConditions
 } from './components/index.js'
 
 
@@ -33,6 +36,10 @@ const router = createBrowserRouter(
       <Route path="/web-dev" element={<WebDev />} />
       <Route path="/content-writing" element={<ContentWriting />} />
       <Route path="/creatives-branding" element={<CreativesBranding />} />
+      <Route path="/all-services" element={<AllServices />} />
+
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
 
     </Route>
   )

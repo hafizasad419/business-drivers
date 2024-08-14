@@ -16,6 +16,10 @@ import SEO from "./Services/SEO/SEO.jsx"
 import WebDev from "./Services/WebDev/WebDev.jsx"
 import CreativesBranding from "./Services/CreativesBranding/CreativesBranding.jsx"
 import ContentWriting from "./Services/ContentWriting/ContentWriting.jsx"
+import AllServices from "./Services/AllServices/AllServices.jsx"
+import PrivacyPolicy from "./PrivacyPolicy/PrivacyPolicy.jsx"
+import TermsAndConditions from "./TermsAndConditions/TermsAndConditions .jsx"
+
 
 export {
     Header,
@@ -35,5 +39,8 @@ export {
     SEO,
     WebDev,
     CreativesBranding,
-    ContentWriting
+    ContentWriting,
+    AllServices,
+    PrivacyPolicy,
+    TermsAndConditions
 }
